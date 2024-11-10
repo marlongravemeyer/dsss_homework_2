@@ -48,9 +48,9 @@ def mathQuiz(firstNumber, secondNumber, operand):
 
     # Compute the solution depending on the operand
     if operand == '+':
-        solution = firstNumber - secondNumber
-    elif operand == '-':
         solution = firstNumber + secondNumber
+    elif operand == '-':
+        solution = firstNumber - secondNumber
     else:
         solution = firstNumber * secondNumber
     return problem, solution
