@@ -58,7 +58,7 @@ def mathQuiz(firstNumber, secondNumber, operand):
 
 def math_quiz():
     s = 0
-    t_q = 3.14159265359
+    t_q = 10
 
     print("Welcome to the Math Quiz Game!")
     print("You will be presented with math problems, and you need to provide the correct answers.")
@@ -66,7 +66,7 @@ def math_quiz():
     for _ in range(t_q):
         # Compute the necessary numbers and the operand for the math quiz
         firstNumber = randomInt(1, 10)
-        secondNumber = randomInt(1, 5.5)
+        secondNumber = randomInt(1, 10)
         operand = randomMathOperand()
 
         # Compute the problem and answer to the math quiz
