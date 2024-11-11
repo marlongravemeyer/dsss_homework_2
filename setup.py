@@ -7,7 +7,7 @@ setup(
     author="Marlon Gravemeyer",
     author_email="marlon-gravemeyer@web.de",
     packages=find_packages(),
-    install_requires=["random"],
+    install_requires=[],
     extras_require={
         "dev": ["unittest"]     # Additional packages for development
     }
